@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registration</title>
+</head>
+<body>
+    <center>
+        <form method="get" action="./success.html">
+
+    <!-- first box -->
+     <center>
+    <fieldset>
+        <legend>Applicant Details</legend>
+        
+           
+            <table cellspacing="0" cellpadding="10">
+                <tr>
+                     <td><label for="name">Name</label>
+                     <input type="text" id="name" name="username" placeholder="enter username" pattern="[a-zA-Z]+" title="please enter the name " required> <br><br>
+
+                     <label for="birthday">Date of birth</label>
+                     <input type="date" id="birthday" name="birthday" required><br><br>
+
+                     
+                    <label for="phone">Whatsapp No:</label>
+                   <input type="text" id="phone" name="phone" pattern="\+91[6789][0-9]{9}" title="please enter the mobile number" required>
+                   <br><br>
+                   <label for="photo">Photo</label>
+                    <input type="file" name="document" id="photo" title="please upload the file" required>
+                    
+                    </td>
+                     <td><label>Father Name/Guardian's Name</label>
+                     <input type="text" name="fathername" placeholder="enter fathername" pattern="[a-zA-Z]+" title="please enter your father name" required>
+                     <br><br>
+                     <label>Gender:</label>
+                     <input type="radio" id="female" name="gender">
+                     <label for="female">female</label>
+                     <input type="radio" id="male" name="gender">
+                     <label for="male">male</label>
+                     <br><br>
+
+                     <label for="aadar">Aadhaar No.</label>
+                   <input type="text" name="aadar" id="aadar" pattern="[0-9]{12}" title="please enter valid aadar number" required>
+                   <br><br>
+                   <label for="mail">E-mail id:</label> 
+                   <input type="email" name="email" id="mail" title="enter email address" pattern="[a-zA-Z0-9!@#$%^&*.]+" required>
+               
+                    </td>
+                </tr>
+            </table>
+    </center>
+    <center>
+    </fieldset>
+    <!--  Second box-->
+    <fieldset>
+        <legend>Residencial Address Details</legend>
+
+            <table  cellspacing="0" cellpading="40">
+            <tr>
+                <td>
+                    <label for="address">Applicant address:</label>
+                    <textarea name="address" id="address">Hyderabad</textarea>
+
+                    <br><br>
+
+
+                    <label>Mandal:</label>
+                   <select name="mandal">
+                    <option value="Devarakonda">Devarakonda</option>
+                    <option value="Mall">Mall</option>
+                   </select>
+
+
+
+                <br><br>
+                <label for="pincode">Pincode:</label>
+                    <input type="password" name="pin" id="pincode" pattern="[0-9]{6}" required>
+                </td>
+                <td>
+                    <label for="district">District:</label>
+                   
+                 <select name="district">
+                    <option value="Nalgonda">Nalgonda</option>
+                    <option value="Rangareddy">RangaReddy</option>
+                 </select>
+                 <br><br>
+                 <label for="village">Village:</label>
+                    
+                    <select name="village" value="village">
+                        <option value="village">Kphb</option>
+                        <option value="village">Kukatpally</option>
+                    </select>
+                </td>
+            </tr>
+
+            </table>
+        
+    </fieldset>
+
+    </center>
+    <!-- third box -->
+     <center>
+    <fieldset>
+        <legend>Pass Type Details</legend>
+        
+            <label>City:</label>
+            <select name="city">
+                <option value="hyd">Hyderabad</option>
+                <option value="mum">Mumbai</option>
+                <br>
+                <br>
+            </select>
+            <br>
+            <br>
+            <label>Passtype:</label>
+            <select name="passtype">
+                <option value="std">Student</option>
+                <option value="general">General</option>
+                <br>
+                <br>
+            </select>
+       
+    </fieldset>
+</center>
+    <!-- fourth box -->
+     <center>
+    <fieldset>
+        <legend>Mode Of payment and pass collection</legend>
+      
+
+    <label>Payment Mode:</label>
+    <select name="paymentmode">
+        <option value="payment">offline</option>
+        <option value="online">online</option>
+        <br>
+        <br>
+    </select>
+    <br>
+    <br>
+    <label>Pass Delivery Mode:</label>
+    
+            <select name="passdeliverymode">
+                <option value="home">Home</option>
+                <option value="counter">counter</option>
+                <br>
+                <br>
+            </select>
+            <br>
+            <br>
+            <label>City:</label>
+            <select name="center">
+                <option value="KPHB">KPHB</option>
+                <option value="DSNR">DILSUKHNAGAR</option>
+                <br>
+                <br>
+            </select>
+            <br>
+            <br>
+
+    </fieldset>
+    </center>
+
+    <center>
+        <img src="./captcha.png"> 
+    </center>
+   <center>  
+     <input type="text" name="captcha" pattern="[a-zA-Z]+" pattern="enter correct captcha"><br><br>
+     <input type="submit" value="submit">
+    </center>
+
+    </form>
+</center>
+</body>
+</html>
