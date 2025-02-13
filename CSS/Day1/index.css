@@ -1,0 +1,15 @@
+#containter{
+    width: 300px;
+    height: 250px;
+    background-color:rgba(232, 149, 61, 0.3);
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 2px;
+    border-style: solid;
+    align-content: center;
+    border-color:black;
+   
+   background-image: linear-gradient(rgb(60, 255, 0), rgb(235, 235, 33), rgb(128, 49, 0));
+   
+
+}
