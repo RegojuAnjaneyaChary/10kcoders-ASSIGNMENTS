@@ -1,0 +1,82 @@
+/* .body{
+    margin: 0px 10px 0px 10px;
+
+} */
+
+
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.navbar >h1{
+color: #373084;
+ font-size: 50px;
+}
+.tutorials{
+    display: flex;
+   column-gap: 30px;
+   
+
+}
+.tutorials a{
+
+text-decoration: none;
+}
+.tutorials >span{
+    background-color: #373084;;
+    padding: 5px 15px;
+    border-radius: 2px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px #161616;
+}
+.land{
+display: flex;
+width: 100%;
+padding-left: 30px;
+padding-right: 30px;
+
+
+}
+
+.landingpage1{
+
+/* background-color: aqua; */
+width: 50%;
+font-size: 30px;
+color: #373084;
+}
+.landingpage1 >p{
+
+    font-size: 30px;
+}
+
+.landingpage2{
+
+
+/* background-color: blueviolet; */
+width: 50%;
+
+
+
+}
+.landingpage2 >img{
+    width: 600px;
+}
+.button{
+    display:flex;
+    column-gap: 30px;
+    color: white;
+}
+.button >p{
+ background-color: #373084;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+
+}
