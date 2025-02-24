@@ -1,0 +1,30 @@
+#parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+    height: 30vh; 
+    background-color: bisque;
+    gap: 10px;
+}
+.child{
+    background-color: blueviolet;
+   
+   border: 1px solid,black;
+
+}
+.child1{
+  grid-row-start: 1; 
+  grid-row-end: 3; 
+}
+.child2{
+    grid-row-start: 1; 
+    grid-row-end: 2; 
+   }
+   .child4{
+grid-column-start: 2;
+grid-column-end: 4;
+   }
+   .child5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+       }
