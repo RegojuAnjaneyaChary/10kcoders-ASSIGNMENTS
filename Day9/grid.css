@@ -1,0 +1,19 @@
+#parent{
+    background-color: rgb(182, 182, 244);
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 200px 300px auto 250px ;
+    column-gap:5px;
+   /* justify-items: center; */
+   justify-items: end;
+   align-items: center;
+   height: 50vh;
+
+}
+.child{
+    background-color: burlywood;
+    column-gap: 10px;
+    border: 2px solid black;
+    
+
+}
